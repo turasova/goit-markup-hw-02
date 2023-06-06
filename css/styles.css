@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+   
+.logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #2E2F42;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.logo-header {
+    color: #4D5AE5;
+}
+.list {
+list-style: none;
+}
+.link {
+    text-decoration: none;
+    color: #2E2F42;
+}
+.contact {
+    color: #434455;
+}
+.hero-title {
+    background-color: #2E2F42;
+    width: 1440px;
+    height: 600px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
+}
+.hero-button {
+    width: 169px;
+    height: 56px;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
