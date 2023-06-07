@@ -18,19 +18,16 @@ body {
 }
    
 .logo {
+    color: var(--logo-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    color: var(--secondary-color);
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
 .logo-header {
-    color: var(--logo-color);
-}
-.logo-header-secondary {
     color: var(--secondary-color);
 }
 .list {
@@ -62,16 +59,18 @@ list-style: none;
 .link-contact:focus {
     color: var(--active-color); 
 }
-.hero-title {
+.hero {
     background-color: var(--secondary-color);
     width: 1440px;
     height: 600px;
     text-align: center;
     font-weight: 700;
+}
+.hero-title {
     font-size: 56px;
     line-height: 1.07;
     color: var(--fon-text-color);
-    letter-spacing: 0.02em;
+    letter-spacing: 0.02em; 
 }
 .hero-button {
     font-family: 'Roboto', sans-serif;
