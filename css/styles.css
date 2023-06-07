@@ -30,9 +30,7 @@ body {
 .logo-header {
     color: var(--secondary-color);
 }
-.link-logo {
-    text-decoration: none;
-}
+
 .list {
 list-style: none;
 }
