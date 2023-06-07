@@ -48,10 +48,15 @@ list-style: none;
 .link:focus {
     color: var(--active-color);
 }
+.contact {  
+    font-style: normal;
+}
 .link-contact {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--brand-color);
     text-decoration: none;
-    font-style: normal;
 }
 .link-contact:hover,
 .link-contact:focus {
@@ -69,6 +74,7 @@ list-style: none;
     letter-spacing: 0.02em;
 }
 .hero-button {
+    font-family: 'Roboto', sans-serif;
     width: 169px;
     height: 56px;
     background: var(--logo-color);
@@ -78,6 +84,7 @@ list-style: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
 }
 .hero-button:hover,
@@ -105,6 +112,12 @@ list-style: none;
     letter-spacing: 0.02em;
     text-transform: capitalize;
  }
+ .comando-fon {
+    background-color: var(--text-footer-color);
+ }
+ .comando-fon-secondary {
+    background-color: var(--fon-text-color);
+ }
  .comando-title {
     color: var(--secondary-color);
     font-weight: 500;
@@ -131,9 +144,15 @@ list-style: none;
     color: var(--text-footer-color);
  }
   .logo-footer {
-       color: var(--text-footer-color);
+    font-family: 'Raleway', sans-serif;
+    color: var(--text-footer-color);
   }
   .portfolio-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     width: 116px;
     height: 48px;
     background: var(--text-footer-color);
@@ -143,7 +162,7 @@ list-style: none;
     cursor: pointer;
   }
   .portfolio-button:hover,
-  .portfolio-button:active {
+  .portfolio-button:focus {
     background: var(--active-color);
     box-shadow: var(--portfolio-button-shadow-color);
     border-radius: 4px;
