@@ -4,10 +4,9 @@
 --logo-color:#4D5AE5;
 --active-color:#404BBF;
 --secondary-color:#2E2F42;
---button-shadow-color:0px 4px 4px rgba(0, 0, 0, 0.15);
 --text-footer-color:#F4F4FD;
 --border-portfolio-color:#E7E9FC;
---portfolio-button-shadow-color:0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),    0px 2px 2px rgba(0, 0, 0, 0.12);
+
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -31,15 +30,17 @@ body {
 }
 
 .list {
-list-style: none;
+    list-style: none;
 }
 .link {
+    text-decoration: none;
+}
+.link-header {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--secondary-color);
-    text-decoration: none;
+    color: var(--secondary-color);  
 }
 .link:hover,
 .link:focus {
@@ -53,7 +54,6 @@ list-style: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--brand-color);
-    text-decoration: none;
 }
 .link-contact:hover,
 .link-contact:focus {
@@ -61,8 +61,6 @@ list-style: none;
 }
 .hero {
     background-color: var(--secondary-color);
-    width: 1440px;
-    height: 600px;
     text-align: center;
     font-weight: 700;
 }
@@ -74,11 +72,7 @@ list-style: none;
 }
 .hero-button {
     font-family: 'Roboto', sans-serif;
-    width: 169px;
-    height: 56px;
     background: var(--logo-color);
-    box-shadow: var(--button-shadow-color);
-    border-radius: 4px;
     color: var(--fon-text-color);
     font-weight: 500;
     font-size: 16px;
@@ -132,9 +126,7 @@ list-style: none;
     letter-spacing: 0.02em;
  }
  .footer-blok {
-    width: 1440px;
-    height: 312px;
-    background: var(--secondary-color);
+     background: var(--secondary-color);
  }
  .footer-text {
     font-size: 16px;
@@ -152,25 +144,17 @@ list-style: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    width: 116px;
-    height: 48px;
     background: var(--text-footer-color);
     border: 1px solid var(--border-portfolio-color);
-    border-radius: 4px;
     color: var(--logo-color);
     cursor: pointer;
   }
   .portfolio-button:hover,
   .portfolio-button:focus {
     background: var(--active-color);
-    box-shadow: var(--portfolio-button-shadow-color);
-    border-radius: 4px;
     color: var(--fon-text-color);
   }
-  .link-portfolio {
-    text-decoration: none;
-  }
-  .portfolio-title {
+    .portfolio-title {
     color: var(--secondary-color);
     font-weight: 500;
     font-size: 20px;
